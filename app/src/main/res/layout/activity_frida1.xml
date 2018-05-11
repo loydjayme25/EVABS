@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:layout_height="match_parent"
+    tools:context=".Frida1">
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="158dp"
+        android:fontFamily="@font/armata"
+        android:text="YOUR DESTINATION: "
+        android:textColor="@color/colorWhite"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="245dp" />
+
+    <Button
+        android:id="@+id/fbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_column="2"
+        android:layout_marginBottom="213dp"
+        android:layout_row="0"
+        android:text="MAP AREA"
+        tools:layout_editor_absoluteX="107dp"
+        tools:layout_editor_absoluteY="321dp" />
+
+    <TextView
+        android:id="@+id/valueatext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="99dp"
+        android:layout_marginTop="72dp"
+        android:fontFamily="@font/armata"
+        android:text="Co-ordinate X: "
+        android:textColor="@color/colorWhite"
+        tools:ignore="RtlCompat" />
+
+    <TextView
+        android:id="@+id/valuea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/armata"
+        android:textColor="@color/colorWhite"
+        android:layout_alignEnd="@+id/fbutton"
+        android:layout_alignTop="@+id/valueatext"
+        android:text=""
+        android:layout_alignRight="@+id/fbutton"
+        tools:ignore="RtlCompat" />
+
+    <TextView
+        android:id="@+id/valuebtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/valueatext"
+        android:layout_marginTop="121dp"
+        android:fontFamily="@font/armata"
+        android:text="Co-ordinate Y: "
+        android:textColor="@color/colorWhite"
+        tools:ignore="RtlCompat" />
+
+    <TextView
+        android:id="@+id/valueb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/fbutton"
+        android:layout_alignTop="@+id/valuebtext"
+        android:text=""
+        tools:ignore="RtlCompat"
+        android:fontFamily="@font/armata"
+        android:textColor="@color/colorWhite"
+        android:layout_alignRight="@+id/fbutton" />
+
+    <TextView
+        android:id="@+id/restext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/result"
+        android:layout_marginTop="177dp"
+        android:fontFamily="@font/armata"
+        android:text="CLUSTER: "
+        android:textColor="@color/colorWhite" />
+
+    <TextView
+        android:id="@+id/xres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/fbutton"
+        android:fontFamily="@font/armata"
+        android:textColor="@color/colorWhite"
+        android:layout_alignTop="@+id/restext"
+        android:text=""
+        android:layout_alignRight="@+id/fbutton"
+        tools:ignore="RtlCompat" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/comfortaa_bold"
+        android:textColor="@color/colorWhite"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:textAlignment="center"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp"
+        android:text="INSTRUMENT" />
+
+    <Button
+        android:id="@+id/buttonhintfrida"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="71dp"
+        android:text="HINT" />
+
+    <TextView
+        android:id="@+id/textViewhintfrida"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/armata"
+        android:textColor="@color/colorWhite"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:textAlignment="center"
+        android:layout_marginBottom="23dp"
+        android:text="" />
+</RelativeLayout>

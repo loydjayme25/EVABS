@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".Welcome">
+
+
+    <TextView
+        android:id="@+id/textViewwelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="83dp"
+        android:fontFamily="@font/armata"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:text=""
+        android:textColor="@color/colorWhite"
+        android:textSize="12dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="143dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:shadowColor="@color/colorWhite"
+        android:text=""
+        android:textColor="@color/colorOrange" />
+
+    <Button
+        android:id="@+id/buttonaccess"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="61dp"
+        android:text="ACCESS" />
+</RelativeLayout>
