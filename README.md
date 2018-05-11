@@ -2,23 +2,28 @@
 
 ---
 
+[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://www.github.com/abhi-r3v0/EVABS)  [![GPL Licence](https://badges.frapsoft.com/os/gpl/gpl.png?v=103)](https://www.github.com/abhi-r3v0/EVABS)
+
 An open source Android application that is intentionally vulnerable so as to act as a learning platform for Android application security beginners. The effort is to introduce beginners with very limited or zero knowledge to some of the major and commonly found real-world based Android application vulnerabilities in a story-based, interactive model. EVABS follows a level-wise difficulty approach and in each level, the player learns a new concept. This project is still under progress and aims at incorporating as many levels as possible.
 
 ---
 
 ### INSTALLATION
 
-* Download the application file ([apk](https://github.com/abhi-r3v0/EVABS/APPLICATION_FILE/EVABSv1.0.apk)).
+* Download the application file ([apk](https://github.com/abhi-r3v0/EVABS/blob/master/APPLICATION_FILE/EVABSv1.0.apk)).
 * Install it in an Android device (rooted recommended) or emulator.
 
 ---
 
 ### REQUIREMENTS
 
+* Android Emulator (Default/Genymotion) or a rooted Android device.
 * [FRIDA] (https://frida.re/)
 * [ADB] (https://www.xda-developers.com/install-adb-windows-macos-linux/)
 * [apktool] (https://ibotpeaches.github.io/Apktool/)
 * [dex2jar] (https://github.com/pxb1988/dex2jar)
+
+or use [ADHRIT](https://github.com/abhi-r3v0/Adhrit) (all-in-one tool)
 
 Confused? Read the [documentation]() on setting up the environment.
 
@@ -43,4 +48,4 @@ Confused? Read the [documentation]() on setting up the environment.
 
 ---
 
-#### From India, to the world <3
+## From India, to the world :blue_heart:
