@@ -10,18 +10,26 @@ An open source Android application that is intentionally vulnerable so as to act
 
 ### INSTALLATION
 
-* Download the application file ([apk](https://github.com/abhi-r3v0/EVABS/blob/master/APPLICATION_FILE/EVABSv1.0.apk)).
+* Download the application file ([apk](https://github.com/abhi-r3v0/EVABS/blob/master/APPLICATION_FILE/EVABSv1.apk)).
 * Install it in an Android device (rooted recommended) or emulator.
+
+---
+
+### SCREENSHOTS:
+
+![1]docs/images/ss0.png)
+
+![2]docs/images/ss1.png)
 
 ---
 
 ### REQUIREMENTS
 
 * Android Emulator (Default/Genymotion) or a rooted Android device.
-* [FRIDA] (https://frida.re/)
-* [ADB] (https://www.xda-developers.com/install-adb-windows-macos-linux/)
-* [apktool] (https://ibotpeaches.github.io/Apktool/)
-* [dex2jar] (https://github.com/pxb1988/dex2jar)
+* [FRIDA](https://frida.re/)
+* [ADB](https://www.xda-developers.com/install-adb-windows-macos-linux/)
+* [apktool](https://ibotpeaches.github.io/Apktool/)
+* [dex2jar](https://github.com/pxb1988/dex2jar)
 
 or use [ADHRIT](https://github.com/abhi-r3v0/Adhrit) (all-in-one tool)
 
