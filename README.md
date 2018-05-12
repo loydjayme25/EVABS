@@ -17,9 +17,9 @@ An open source Android application that is intentionally vulnerable so as to act
 
 ### SCREENSHOTS:
 
-![1]docs/images/ss0.png)
+![1](docs/images/ss0.png)
 
-![2]docs/images/ss1.png)
+![2](docs/images/ss1.png)
 
 ---
 
